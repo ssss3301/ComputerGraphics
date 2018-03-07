@@ -2,12 +2,8 @@
 #define __BresenhamLine_H__
 
 #include <vector>
+#include "Define.h"
 
-typedef struct LinePoint 
-{
-	int x;
-	int y;
-};
 
 class BresenhamLine
 {

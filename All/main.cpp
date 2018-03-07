@@ -2,8 +2,10 @@
 #include "gl/glut.h"
 
 #include "Ellipse.h"
+#include "ThickLine.h"
 
-EllipseRenderer renderer;
+LinePoint p1 = { 200, 120 };
+LinePoint p2 = { 200, 20 };
 
 void init()
 {
@@ -11,15 +13,16 @@ void init()
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluOrtho2D(0, 300, 0, 300);
-
-	renderer.setEllipseParameter(30, 50, 150, 150);
 }
 
 void display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0, 0, 0);
-	renderer.render();
+	glBegin(GL_POINTS);
+	ThickLine::drawLine(p1, p2, 10);
+	glEnd();
+	glFlush();
 }
 
 int main(int argc, char** argv)

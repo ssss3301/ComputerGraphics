@@ -90,10 +90,13 @@
     <ClCompile Include="Line_DDA.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PolygnLine.cpp" />
+    <ClCompile Include="ThickLine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BresenhamLine.h" />
+    <ClInclude Include="Define.h" />
     <ClInclude Include="Ellipse.h" />
+    <ClInclude Include="ThickLine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
