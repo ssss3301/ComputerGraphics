@@ -42,6 +42,17 @@ void ThickLine::drawLine(LinePoint p1, LinePoint p2, int lineWidth)
 	glFlush();
 }
 
+void ThickLine::drawPolygonalLine(const std::vector<LinePoint> points, int lineWidth)
+{
+	for (int i = 0; i < points.size() - 1; ++i)
+	{
+		LinePoint p1 = points.at(i);
+		LinePoint p2 = points.at(i + 1);
+		drawLine(p1, p2, lineWidth);
+	}
+}
+
+
 ThickLine::ThickLine()
 {
 

@@ -2,7 +2,7 @@
 #define __BresenhamLine_H__
 
 #include <vector>
-#include "Define.h"
+#include "../Define.h"
 
 
 class BresenhamLine

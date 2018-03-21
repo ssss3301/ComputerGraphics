@@ -1,11 +1,12 @@
 #include "gl/freeglut.h"
 #include "gl/glut.h"
 
-#include "Ellipse.h"
-#include "ThickLine.h"
+#include "Define.h"
+#include "./Chapter4/ThickLine.h"
 
-LinePoint p1 = { 200, 120 };
-LinePoint p2 = { 200, 20 };
+LinePoint p1 = { 150, 150 };
+LinePoint p2 = { 100, 20 };
+LinePoint p3 = { 200, 50 };
 
 void init()
 {
@@ -20,7 +21,11 @@ void display()
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0, 0, 0);
 	glBegin(GL_POINTS);
-	ThickLine::drawLine(p1, p2, 10);
+	std::vector<LinePoint> pts;
+	pts.push_back(p1);
+	pts.push_back(p2);
+	pts.push_back(p3);
+	ThickLine::drawPolygonalLine(pts, 10);
 	glEnd();
 	glFlush();
 }

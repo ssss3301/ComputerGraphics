@@ -19,54 +19,63 @@
     <Filter Include="Source Files\Chapter4">
       <UniqueIdentifier>{d2b18075-b465-4459-ad46-c3b397d9be94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Chapter3\Exercises">
+      <UniqueIdentifier>{6356583b-a849-4197-b571-35e3951a4972}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BresenhamLine.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="CircleMidPoint.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="Ellipse.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="GL_LINE_LOOP.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="GL_LINE_STRIP.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="GL_LINES.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="Line_Bresenham.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="Line_DDA.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="PolygnLine.cpp">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClCompile>
-    <ClCompile Include="ThickLine.cpp">
+    <ClCompile Include="Chapter4\ThickLine.cpp">
       <Filter>Source Files\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\BresenhamLine.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\CircleMidPoint.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Ellipse.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\GL_LINE_LOOP.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\GL_LINE_STRIP.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\GL_LINES.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Line_Bresenham.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Line_DDA.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Parabola.cpp">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\PolygnLine.cpp">
+      <Filter>Source Files\Chapter3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BresenhamLine.h">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClInclude>
-    <ClInclude Include="Ellipse.h">
-      <Filter>Source Files\Chapter3</Filter>
-    </ClInclude>
-    <ClInclude Include="ThickLine.h">
-      <Filter>Source Files\Chapter4</Filter>
-    </ClInclude>
     <ClInclude Include="Define.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter4\ThickLine.h">
+      <Filter>Source Files\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\BresenhamLine.h">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\Ellipse.h">
+      <Filter>Source Files\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\Parabola.h">
+      <Filter>Source Files\Chapter3</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,12 +1,14 @@
 #ifndef __ThickLine_H__
 #define __ThickLine_H__
 
-#include "Define.h"
+#include "../Define.h"
+#include <vector>
 
 class ThickLine
 {
 public:
 	static void drawLine(LinePoint p1, LinePoint p2, int lineWidth);
+	static void drawPolygonalLine(const std::vector<LinePoint> points, int lineWidth);
 
 protected:
 	ThickLine();
