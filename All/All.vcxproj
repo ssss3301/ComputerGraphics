@@ -83,6 +83,8 @@
     <ClCompile Include="Chapter3\BresenhamLine.cpp" />
     <ClCompile Include="Chapter3\CircleMidPoint.cpp" />
     <ClCompile Include="Chapter3\Ellipse.cpp" />
+    <ClCompile Include="Chapter3\Exercises\Ex3.1.cpp" />
+    <ClCompile Include="Chapter3\Exercises\Ex3.2.cpp" />
     <ClCompile Include="Chapter3\GL_LINES.cpp" />
     <ClCompile Include="Chapter3\GL_LINE_LOOP.cpp" />
     <ClCompile Include="Chapter3\GL_LINE_STRIP.cpp" />
@@ -96,6 +98,8 @@
   <ItemGroup>
     <ClInclude Include="Chapter3\BresenhamLine.h" />
     <ClInclude Include="Chapter3\Ellipse.h" />
+    <ClInclude Include="Chapter3\Exercises\Ex3.1.h" />
+    <ClInclude Include="Chapter3\Exercises\Ex3.2.h" />
     <ClInclude Include="Chapter3\Parabola.h" />
     <ClInclude Include="Chapter4\ThickLine.h" />
     <ClInclude Include="Define.h" />

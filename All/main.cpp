@@ -2,11 +2,13 @@
 #include "gl/glut.h"
 
 #include "Define.h"
-#include "./Chapter4/ThickLine.h"
+#include "Chapter3/Exercises/Ex3.1.h"
+#include "Chapter3/Exercises/Ex3.2.h"
 
-LinePoint p1 = { 150, 150 };
-LinePoint p2 = { 100, 20 };
+LinePoint p1 = { 30, 30 };
+LinePoint p2 = { 30, 50 };
 LinePoint p3 = { 200, 50 };
+LinePoint p4 = { 100, 200 };
 
 void init()
 {
@@ -20,14 +22,13 @@ void display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0, 0, 0);
-	glBegin(GL_POINTS);
 	std::vector<LinePoint> pts;
 	pts.push_back(p1);
 	pts.push_back(p2);
 	pts.push_back(p3);
-	ThickLine::drawPolygonalLine(pts, 10);
-	glEnd();
-	glFlush();
+	pts.push_back(p4);
+	Ex32 ex32;
+	ex32.drawLineWithBresenham(p2, p1);
 }
 
 int main(int argc, char** argv)

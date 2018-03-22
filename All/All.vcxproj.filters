@@ -60,6 +60,12 @@
     <ClCompile Include="Chapter3\PolygnLine.cpp">
       <Filter>Source Files\Chapter3</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter3\Exercises\Ex3.1.cpp">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Exercises\Ex3.2.cpp">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h">
@@ -76,6 +82,12 @@
     </ClInclude>
     <ClInclude Include="Chapter3\Parabola.h">
       <Filter>Source Files\Chapter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\Exercises\Ex3.1.h">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\Exercises\Ex3.2.h">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
