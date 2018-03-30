@@ -66,6 +66,12 @@
     <ClCompile Include="Chapter3\Exercises\Ex3.2.cpp">
       <Filter>Source Files\Chapter3\Exercises</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter3\Exercises\Ex3.3.cpp">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter3\Exercises\Ex3.4.cpp">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h">
@@ -87,6 +93,12 @@
       <Filter>Source Files\Chapter3\Exercises</Filter>
     </ClInclude>
     <ClInclude Include="Chapter3\Exercises\Ex3.2.h">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\Exercises\Ex3.3.h">
+      <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter3\Exercises\Ex3.4.h">
       <Filter>Source Files\Chapter3\Exercises</Filter>
     </ClInclude>
   </ItemGroup>

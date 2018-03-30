@@ -4,9 +4,11 @@
 #include "Define.h"
 #include "Chapter3/Exercises/Ex3.1.h"
 #include "Chapter3/Exercises/Ex3.2.h"
+#include "Chapter3/Exercises/Ex3.3.h"
+#include "Chapter3/Exercises/Ex3.4.h"
 
 LinePoint p1 = { 30, 30 };
-LinePoint p2 = { 30, 50 };
+LinePoint p2 = { 100, 50 };
 LinePoint p3 = { 200, 50 };
 LinePoint p4 = { 100, 200 };
 
@@ -27,8 +29,8 @@ void display()
 	pts.push_back(p2);
 	pts.push_back(p3);
 	pts.push_back(p4);
-	Ex32 ex32;
-	ex32.drawLineWithBresenham(p2, p1);
+	Ex34 ex34;
+	ex34.drawLineWithMidPoint(p1, p2);
 }
 
 int main(int argc, char** argv)
