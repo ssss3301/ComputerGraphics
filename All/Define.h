@@ -3,8 +3,8 @@
 
 typedef struct LinePoint
 {
-	int x;
-	int y;
+	float x;
+	float y;
 };
 
 #endif //__Define_H__

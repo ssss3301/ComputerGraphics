@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Chapter3\Exercises">
       <UniqueIdentifier>{6356583b-a849-4197-b571-35e3951a4972}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Chapter5">
+      <UniqueIdentifier>{70907eb9-b670-4a59-befa-b4f405f10d3f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -72,6 +75,9 @@
     <ClCompile Include="Chapter3\Exercises\Ex3.4.cpp">
       <Filter>Source Files\Chapter3\Exercises</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter5\Transform.cpp">
+      <Filter>Source Files\Chapter5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h">
@@ -100,6 +106,9 @@
     </ClInclude>
     <ClInclude Include="Chapter3\Exercises\Ex3.4.h">
       <Filter>Source Files\Chapter3\Exercises</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter5\Transform.h">
+      <Filter>Source Files\Chapter5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
