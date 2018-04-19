@@ -95,6 +95,7 @@
     <ClCompile Include="Chapter3\Parabola.cpp" />
     <ClCompile Include="Chapter3\PolygnLine.cpp" />
     <ClCompile Include="Chapter4\ThickLine.cpp" />
+    <ClCompile Include="Chapter5\CompositeTransform.cpp" />
     <ClCompile Include="Chapter5\Transform.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -107,6 +108,7 @@
     <ClInclude Include="Chapter3\Exercises\Ex3.4.h" />
     <ClInclude Include="Chapter3\Parabola.h" />
     <ClInclude Include="Chapter4\ThickLine.h" />
+    <ClInclude Include="Chapter5\CompositeTransform.h" />
     <ClInclude Include="Chapter5\Transform.h" />
     <ClInclude Include="Define.h" />
   </ItemGroup>

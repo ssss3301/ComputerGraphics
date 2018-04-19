@@ -78,6 +78,9 @@
     <ClCompile Include="Chapter5\Transform.cpp">
       <Filter>Source Files\Chapter5</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter5\CompositeTransform.cpp">
+      <Filter>Source Files\Chapter5</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h">
@@ -108,6 +111,9 @@
       <Filter>Source Files\Chapter3\Exercises</Filter>
     </ClInclude>
     <ClInclude Include="Chapter5\Transform.h">
+      <Filter>Source Files\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter5\CompositeTransform.h">
       <Filter>Source Files\Chapter5</Filter>
     </ClInclude>
   </ItemGroup>

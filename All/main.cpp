@@ -7,6 +7,7 @@
 #include "Chapter3/Exercises/Ex3.3.h"
 #include "Chapter3/Exercises/Ex3.4.h"
 #include "Chapter5/Transform.h"
+#include "Chapter5/CompositeTransform.h"
 
 LinePoint p1 = { 30, 30};
 LinePoint p2 = { 100, 50};
@@ -15,9 +16,11 @@ LinePoint p4 = { 100, 200};
 
 CTransform trans;
 unsigned char op = 0;
-Point pt[4] = { { 0, 0 }, { 100, 0 }, { 100, 100 }, { 0, 100 } };
+Point pt[4] = { { 0, 0 }, { 50, 0 }, { 50, 50 }, { 0, 50 } };
 Point pivot = { 0, 0 };
 Point fixedPoint = { 0, 0 };
+
+CompositeTransform compositeTransform;
 
 void init()
 {
@@ -31,32 +34,34 @@ void display()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0, 0, 0);
-	switch (op)
-	{
-	case 'T':
-	case 't':
-		trans.translate(pt, 4, 100, 100);
-		break;
+// 	switch (op)
+// 	{
+// 	case 'T':
+// 	case 't':
+// 		trans.translate(pt, 4, 100, 100);
+// 		break;
+// 
+// 	case 'R':
+// 	case 'r':
+// 		trans.rotate(pt, 4, pivot, 15.0);
+// 		break;
+// 
+// 	case 'S':
+// 	case 's':
+// 		trans.scale(pt, 4, fixedPoint, 1.8);
+// 		break;
+// 
+// 	case 'Q':
+// 	case 'q':
+// 		trans.directionalScale(pt, 4, 45, 1, 2);
+// 		break;
+// 
+// 	default:
+// 		trans.translate(pt, 4, 0, 0);
+// 		break;
+// 	}
 
-	case 'R':
-	case 'r':
-		trans.rotate(pt, 4, pivot, 15.0);
-		break;
-
-	case 'S':
-	case 's':
-		trans.scale(pt, 4, fixedPoint, 1.8);
-		break;
-
-	case 'Q':
-	case 'q':
-		trans.directionalScale(pt, 4, 45, 1, 2);
-		break;
-
-	default:
-		trans.translate(pt, 4, 0, 0);
-		break;
-	}
+	compositeTransform.transform(pt, 4, 200, 200, 15, 3.0f);
 	glFlush();
 }
 
@@ -88,7 +93,7 @@ int main(int argc, char** argv)
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
 	glutCreateWindow(argv[0]);
-	glutInitWindowSize(300, 300);
+	glutInitWindowSize(500, 500);
 	glutInitWindowPosition(100, 100);
 	init();
 	glutDisplayFunc(display);
