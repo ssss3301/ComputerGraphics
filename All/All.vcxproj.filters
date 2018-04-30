@@ -81,6 +81,15 @@
     <ClCompile Include="Chapter5\CompositeTransform.cpp">
       <Filter>Source Files\Chapter5</Filter>
     </ClCompile>
+    <ClCompile Include="SplitScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter5\LineClip.cpp">
+      <Filter>Source Files\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="ClipLineTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Define.h">
@@ -114,6 +123,9 @@
       <Filter>Source Files\Chapter5</Filter>
     </ClInclude>
     <ClInclude Include="Chapter5\CompositeTransform.h">
+      <Filter>Source Files\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="Chapter5\LineClip.h">
       <Filter>Source Files\Chapter5</Filter>
     </ClInclude>
   </ItemGroup>
